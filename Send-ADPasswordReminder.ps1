@@ -97,7 +97,6 @@ function Send-ADPasswordReminder
     }
     process
     {
-        $SearchRoot = "thcg.net/na/users/plymouth data center"
         # Use the following for Get-ADUser
         # $SearchRoot = "ou=My Data Center,ou=users,ou=na,dc=foo,dc=local"
 
